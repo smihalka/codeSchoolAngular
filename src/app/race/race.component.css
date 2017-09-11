@@ -1,0 +1,73 @@
+.card {
+  background: #44464c;
+  margin-bottom: 30px;
+  min-height: 160px;
+}
+
+.card.racing {
+  background: #24262c;
+}
+
+.photo {
+  float: left;
+  margin-right: 30px;
+}
+
+.panel-body {
+  display: table;
+  padding: 0;
+}
+
+.description {
+  color: #66d9f7;
+}
+.date, .price {
+  color: #9397d8;
+}
+.race-info {
+  display: table-cell;
+  vertical-align: middle;
+}
+.race-info h3 {
+  margin: 0 0;
+}
+.race-info tbody {
+  display: inline-block;
+}
+
+
+.race-info td:last-child {
+  padding: 0 20px;
+}
+
+.race-info, .race-info tbody, .race-info tr, .race-info td {
+  width: 100%;
+}
+
+.price {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  width: 120px;
+}
+
+.status {
+  color: #fd79fc;
+  text-align: center;
+}
+
+.button {
+  background: #fd79fc;
+  border-radius: 3px;
+  border: 0;
+  color: #ffffff;
+  width: 120px;
+}
+
+.button-cancel {
+  background: none;
+  border: 0;
+  color: #fd79fc;
+  text-decoration: underline;
+  width: 120px;
+}
